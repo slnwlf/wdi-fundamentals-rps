@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////
-/*   Provided Code - Please Don't Edit   */
+/* test change  Provided Code - Please Don't Edit   */
 ////////////////////////////////////////////////
 'use strict';
 
@@ -22,10 +22,15 @@ function randomPlay() {
 ////////////////////////////////////////////////
 
 function getPlayerMove(move) {
+	var move = 'move'
+	if (move === value) {
+		return "move"
+	} else
+
     // Write an expression that operates on a variable called `move`
     // If a `move` has a value, your expression should evaluate to that value.
     // However, if `move` is not specified / is null, your expression should equal `getInput()`.
-    return /* Your Expression */;
+    return move;
 }
 
 function getComputerMove(move) {
